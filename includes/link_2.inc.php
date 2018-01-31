@@ -1,0 +1,2 @@
+<li <?php if($section == 'login') { echo 'id="active"'; } ?>><a <?php if($section == 'login') { echo 'id="on"'; } ?> href="login.php?page=login">SignIn</a></li>
+<li <?php if($section == 'register') { echo 'id="active"'; } ?>><a <?php if($section == 'register') { echo 'id="on"'; } ?> href="register.php?page=register">SignUp</a></li>
